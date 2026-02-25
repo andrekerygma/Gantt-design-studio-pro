@@ -73,6 +73,7 @@ const ChartSVG: React.FC<Props> = ({ data, svgRef }) => {
       ref={svgRef}
       viewBox={`0 0 1240 ${totalHeight}`}
       xmlns="http://www.w3.org/2000/svg"
+      fontFamily="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
       style={{ width: "100%", height: "auto", minWidth: 700, background: "#fff" }}
     >
       <defs>
